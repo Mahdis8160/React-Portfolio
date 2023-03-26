@@ -1,0 +1,28 @@
+h1{
+margin-bottom: 1rem;
+padding-top: 1rem;
+}
+
+img{
+width: 100%;
+ margin-top: 1rem;
+ margin-bottom: 1rem;
+ border-radius: 5px;
+}
+.portfolio img {
+ --s: 10px;
+ --b: 8px;
+ --g: 6px;
+ --c: #4ECDC4;
+ aspect-ratio: 1;
+ outline: calc(var(--s)/10) solid #0009;
+ outline-offset: calc(var(--s)/-10);
+ cursor: pointer;
+ transition: 0.3s;
+}
+img:hover {
+ outline: var(--b) solid var(--c);
+ outline-offset: var(--g);
+}
+
+

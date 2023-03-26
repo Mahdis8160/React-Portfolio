@@ -1,0 +1,21 @@
+.resume{
+
+ 
+}
+.resume .container{
+ height: 100vh;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+
+}
+.resume h3{
+ margin-top: 1rem;
+}
+.resume h6{
+ margin-top: 1rem;
+}
+.resume li{
+ margin-left: 30px;
+}

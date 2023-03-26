@@ -1,0 +1,38 @@
+.main {
+height: 100vh;
+ justify-content: center;
+ align-items: center;
+ display: flex;
+
+}
+
+
+.name{
+ width: 24.8rem;
+ height: 40px;
+ margin-top: 1rem;
+ margin-bottom: 1rem;
+}
+.email{
+ width: 24.8rem;
+ height: 40px;
+ margin-top: 1rem;
+ margin-bottom: 1rem;
+}
+.massage{
+ width: 24.8rem;
+ height: 150px;
+ margin-top: 1rem;
+ margin-bottom: 1rem;
+}
+.submit{
+ background-color:blueviolet;
+ color: white;
+ border: none;
+ width: 130px;
+ height: 40px;
+ border-radius: 5px;
+}
+.main p{
+ color: red;
+}
