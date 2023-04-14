@@ -6,6 +6,7 @@ import Portfolio from "./components/portfolio/Portfolio";
 import AboutMe from "./components/about-me/AboutMe";
 import Resume from "./components/resume/Resume";
 import TimeLine from "./components/timeline/TimeLine";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/" element={<TimeLine/>} />
           
         </Routes>
+        <Footer/>
       </BrowserRouter>
     </div>
   );
