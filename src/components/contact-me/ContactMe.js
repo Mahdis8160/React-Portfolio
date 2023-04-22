@@ -1,35 +1,3 @@
-// import React from "react";
-// import Textra from 'react-textra'
-// 
-
-
-// function ContactMe() {
-//  return (
-//   <div className="main">
-//    <div>
-//     <div>
-//      <Textra effect='flash' data={['Contact me']} />
-//     </div>
-
-//     <label>name:</label><br />
-//     <input type='text' /><br />
-//     <label>email adress:</label><br />
-//     <input type='email' />
-//     <div>
-//      <label>
-//       Write your post:<br />
-//       <textarea name="postContent" rows={4} cols={40} />
-//      </label>
-
-//     </div>
-//     <button className="submit">submit</button>
-//    </div>
-//   </div>
-
-//  )
-// }
-// export default ContactMe
-
 import { useForm } from "react-hook-form";
 import './contact-me.css'
 
@@ -41,6 +9,7 @@ export default function ContactMe() {
   <div className="main">
    <div>
     <form onSubmit={handleSubmit(onSubmit)}>
+   
      <label>name:</label><br />
      <input className="name"
       {...register("firstName", { required: true })}

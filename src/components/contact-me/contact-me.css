@@ -1,11 +1,13 @@
 .main {
-height: 100vh;
+height: 80vh;
  justify-content: center;
  align-items: center;
  display: flex;
 
 }
-
+.main label{
+ font-size: 1.3rem;
+}
 
 .name{
  width: 24.8rem;

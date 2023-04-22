@@ -1,22 +1,26 @@
-.resume{
-
- 
-}
-.resume .container{
- height: 100vh;
+.resume .container {
+ height: 80vh;
  display: flex;
  flex-direction: column;
  justify-content: center;
  align-items: center;
 
 }
-.resume h3{
- margin-top: 1rem;
+
+.resume h3 {
+ font-size: 3rem;
  margin: 2rem;
 }
-.resume h6{
+
+.resume h6 {
  margin-top: 1rem;
+ font-size: 1.5rem;
 }
-.resume li{
+
+.resume li {
  margin-left: 30px;
+ font-size: 1.2rem;
+}
+.resume span{
+ font-size: 2rem;
 }

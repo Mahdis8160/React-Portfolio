@@ -14,6 +14,7 @@ function Resume() {
   <div className="resume">
    <Container>
     <h3>Resume</h3>
+    
    <span>Download my resume</span>
     <h6>Front-End Proficiencies</h6>
     <ul>
