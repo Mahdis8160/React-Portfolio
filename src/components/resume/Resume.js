@@ -15,7 +15,7 @@ function Resume() {
    <Container>
     <h3>Resume</h3>
     
-   <span>Download my resume</span>
+   <span>Download my  <a href="https://flowcv.com/resume/jeq8ev4fwr">resume</a></span>
     <h6>Front-End Proficiencies</h6>
     <ul>
      <li>Html</li>
